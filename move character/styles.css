@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+    font-size: 250px;
+    margin-bottom: 30px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 30px;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 250px;
+    height: 250px;
+    font-size: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.button.up { border-radius: 500px 500px 50px 50px; }
+.button.left { border-radius: 500px 50px 50px 500px; }
+.button.right { border-radius: 50px 500px 500px 50px; }
+.button.down { border-radius: 50px 50px 500px 500px; }
+
+#T {
+    text-align: center;
+    color: green;
+    font-size: 100px;
+}
+
